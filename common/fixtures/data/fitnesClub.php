@@ -19,7 +19,7 @@ return [
     [
         'name' => 'FitCity',
         'address' => 'Самара, ул. Ленина, 25',
-        'is_published' => true,
+        'is_published' => false,
         'is_deleted' => false,
         'created_at' => '2023-01-10 12:00:00',
         'updated_at' => '2023-01-10 12:00:00',

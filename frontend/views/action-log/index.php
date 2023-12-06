@@ -2,7 +2,6 @@
 
 use yii\web\View;
 use yii\grid\GridView;
-use yii\grid\ActionColumn;
 use yii\data\ActiveDataProvider;
 use common\models\log\ActionLog;
 
@@ -44,9 +43,5 @@ $this->params['breadcrumbs'][] = $this->title;
             },
         ],
         'created_at',
-        [
-            'class' => ActionColumn::class,
-            'template' => '{view} {update} {delete}',
-        ],
     ]
 ]) ?>
